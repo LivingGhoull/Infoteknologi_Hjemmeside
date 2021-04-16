@@ -2,12 +2,34 @@ H1{
     text-align: center;
 }
 table{
+    font-size: 18;
     margin-left: auto;
     margin-right: auto;
     background-color: tomato;
+    width: 100%; 
 }
 a{
-    padding: 10%;
     text-decoration: none;
     position: relative;     
 }
+#Tlf, #Email{
+    width: 20px;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: tomato;
+    color: white;
+    text-align: center;
+ }
+
+ .top-bar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .top-bar a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
