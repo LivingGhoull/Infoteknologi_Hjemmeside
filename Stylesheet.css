@@ -1,5 +1,6 @@
 H1{
-    text-align: center;
+    display: inline;
+    margin-left: 50%;
 }
 
 #top-bar{
@@ -11,14 +12,19 @@ H1{
     position: fixed;
     left: 0pt;
     right: 0pt;
+    top: 5%;
 }
+
 a{
     text-decoration: none;
     position: relative;     
 }
+
+
 #Tlf, #Email{
     width: 20px;
 }
+
 footer {
     position: fixed;
     bottom: 0;
@@ -27,19 +33,28 @@ footer {
     color: white;
     text-align: center;
     left: 0pt;
- }
+}
 
- #top-bar a:hover {
+#top-bar a:hover {
     background-color: #ddd;
     color: black;
-  }
-  
-  .kontaktbutton{
-      margin-top: 10pt;
-      margin-left: 10pt;
-      float:right;
-  }
+}
 
-  body{
+#buttons{
+    float: right;
+    margin-top: 0.5%;
+    margin-right: 10%;
+}
+
+body{
     background-image: url(billeder/Space.jpg);
-  }
+}
+
+header{
+    position: fixed;
+    background-color: white;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 5%;
+}
