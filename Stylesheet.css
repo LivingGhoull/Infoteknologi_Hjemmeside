@@ -1,0 +1,13 @@
+H1{
+    text-align: center;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: tomato;
+}
+a{
+    padding: 10%;
+    text-decoration: none;
+    position: relative;     
+}
