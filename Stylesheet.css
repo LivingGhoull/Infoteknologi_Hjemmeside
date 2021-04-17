@@ -6,6 +6,7 @@ H1{
 #bottominfo{
     margin-left: auto;
     margin-right: auto;
+    width: 100%;
 }
 
 #top-bar{
@@ -24,7 +25,6 @@ a{
     text-decoration: none;
     position: relative;     
 }
-
 
 #Tlf, #Email{
     width: 20px;
