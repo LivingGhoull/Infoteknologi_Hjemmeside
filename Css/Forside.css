@@ -1,0 +1,17 @@
+
+#tekst{
+    position: relative;
+    top: 300px;
+    margin-left: auto;
+    margin-right: auto;
+
+    text-align: center;
+    max-width: 300px;
+    min-width: 100px;
+
+    background-color: white;
+    border: solid black 1px;
+    border-radius: 10px;
+    padding: 10px;
+    z-index: -1;
+}
